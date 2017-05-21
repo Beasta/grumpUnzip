@@ -14,4 +14,4 @@ if [ $# -eq 2 ]
     echo "What is the destination folder?"
     read destinationFolder
 fi
-unzip filename -d destinationFolder
+unzip $filename -d $destinationFolder
